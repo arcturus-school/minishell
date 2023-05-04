@@ -1,0 +1,20 @@
+clear
+env user_name=ARCTURUS
+env | grep user_name
+
+
+
+echo $user_name
+env
+echo $user_name
+
+abc=10
+env
+env abc=10
+env
+echo $abc
+abc=10
+env
+env abc=111
+env
+echo $abc
